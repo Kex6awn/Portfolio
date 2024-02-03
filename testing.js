@@ -37,6 +37,12 @@ Date:       1/22/2024
 
 // Dom Manipulation Assignment
 
+/*
+Name:           Francis Ferdinard
+Date:           02/03/2024
+Description:    Dom Manipulation Assignment
+*/
+
 const containerDiv = document.querySelector('div');
 
 for (let i = 0; i < 5; i++) {
