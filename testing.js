@@ -51,5 +51,5 @@ for (let i = 0; i < 5; i++) {
 
 function changeColor() {
     document.querySelector('body').style.backgroundColor = 'black';
-    containerDiv.style.backgroundColor = 'blue';
+    containerDiv.style.backgroundColor = '#FDDDE6';
 }
