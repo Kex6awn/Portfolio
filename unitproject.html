@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link href="unitone.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container-div">
+            <h1>MY FIRST JAVASCRIPT PROJECT</h1>
+            <div class="quote-container">
+
+                <div class="username-container">
+                    <h2 id="usernameHeading">Please Enter Your Name:</h2>
+                    <input type="text" id="username">
+                    <button id="submitButton">Submit</button>
+                </div>
+                
+                <div class="welcome-container">
+                    <h2 id="welcomeHeading"><!--Hi Welcome to Quote Generator--></h2>
+
+                    <button id="continueHere">Continue</button>
+                </div>
+
+                <!-- Quote Div Index Zero -->
+                <div id="quoteDiv">
+                    <p id="quote1" class="quote">"I do the very best I Know how -<br> The very best I Can; and I mean to keep doing<br>so until the end."</p>
+
+                    <p id="person" class="name">ABRAHAM LINCOLN</p>
+
+                    <div class="btn-container">
+                        <button id="changeQuote">Change Quote</button>
+                    </div>
+                </div>
+
+                <!-- Questions Container Div (This should be a loop) -->
+
+                <div id="questionsContainer">
+                    <p>Are you sure you want to change this quote?</p>
+                    <div id="answersContainerOne">
+                        <button class="yes">Yes! Continue</button>
+                        <!-- <button class="responsebutton">Love It</button> -->
+                        <button class="no" >No! Go Back</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <script src="unitone.js"></script>
+    </body>
+</html>

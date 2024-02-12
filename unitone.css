@@ -1,0 +1,147 @@
+* {
+    font-family: monospace, monaco;
+}
+
+body {
+    margin: 0;
+    background-size: cover;
+    background-image: url(Images/background.jpg);
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    width: 30rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: auto;
+}
+
+.quote-container {
+    background-color: white;
+    width: 30rem;
+    margin: auto;
+    padding: 12px;
+}
+
+.container-div {
+    margin-top: 14rem;
+}
+
+.btn-container {
+    width: fit-content;
+    margin: auto;
+}
+
+.name {
+    font-size: 1.5rem;
+    color: green;
+    text-align: center;
+}
+
+/* =============== Change Quote Button =============== */
+
+#changeQuote {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid #04AA6D; 
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+}
+
+#changeQuote:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+/* =================================================== */
+
+
+/* Questions Container below */
+
+/* this questionsContainer div has a  display none */
+
+#questionsContainer {
+    margin: auto;
+    width: fit-content;
+    display: none;
+}
+
+/* =========== Quote Div Starts ========== */
+
+#quoteDiv {
+    display: none;
+}
+
+/*  =========== Quote Div Ends =========== */
+
+
+#quoteDiv1 {
+    display: none;
+}
+
+#answersContainerOne {
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+/* ========================== yes btn */
+.yes {
+    padding: .5em;
+}
+
+/* =========================== no btn  */
+.no {
+    padding: .5em;
+}
+
+.quote {
+    text-align: center;
+}
+
+#username {
+    width: 16rem;
+    height: 2rem;
+    font-size: 16px;
+}
+
+#submitButton {
+    height: 2rem;
+    font-size: 16px;
+}
+
+.username-container {
+    margin: auto;
+    width: fit-content;
+}
+
+/* ============ welcome container ============= */
+
+.welcome-container {
+    margin: auto;
+    width: fit-content;
+    display: none;
+}
+
+/* ================= continue here button ================ */
+
+#continueHere {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid #04AA6D; 
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#continueHere:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
