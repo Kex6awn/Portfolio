@@ -64,13 +64,6 @@ class Object {
         ctx.arc(x, y, radius, 0, Math.PI * 2);
         ctx.fill();
     }
-
-    // clearScreen() {
-    //     ctx.fillStyle = "black";
-    //     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    // }
-
-
 }
 
 const visual = new Object(100, 100, 50, 10, canvas);
@@ -92,44 +85,6 @@ function drawGame() {
   visual.boundryCheck();
   drawGreenBlob();
 }
-
-
-
-// function boundryCheck() {
-//   //up
-//   if (y < radius) {
-//     y = radius;
-//   }
-//   //down
-//   if (y > canvas.height - radius) {
-//     y = canvas.height - radius;
-//   }
-//   //left
-//   if (x < radius) {
-//     x = radius;
-//   }
-//   //right
-//   if (x > canvas.width - radius) {
-//     x = canvas.width - radius;
-//   }
-// }
-
-
-
-// function inputs() {
-//   if (upPressed) {
-//     y = y - speed;
-//   }
-//   if (downPressed) {
-//     y = y + speed;
-//   }
-//   if (leftPressed) {
-//     x = x - speed;
-//   }
-//   if (rightPressed) {
-//     x = x + speed;
-//   }
-// }
 
 function drawGreenBlob() {
   ctx.fillStyle = "green";
