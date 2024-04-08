@@ -40,7 +40,7 @@ function shiftArray() {
 function arrayMap() {
     inputValue = document.getElementById('input').value;
     if (inputValue !== '') {
-        myArray = myArray.map(item => item + inputValue);
+        myArray = myArray.map(item => item + "  " + inputValue);
         update();
     }
 }
